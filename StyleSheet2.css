@@ -1,0 +1,139 @@
+﻿body
+{
+    margin:0;
+    padding:0;
+    background: #fff;
+    font-size: 16px;
+    color: #000000;
+    font-family: sans-serif;
+    font-weight: 300; 
+
+}
+.login-box
+{
+    margin: 10% 40%;
+    height:400px;
+    width:300px;
+    background: #fff;
+    box-shadow:0 2px 4px rgba(0, 0, 0, 0.6);
+}
+.textbox
+{
+    box-sizing:border-box;
+    padding-left:40px;
+    width:300px;
+    height:400px;
+    margin: 0;
+}
+code {
+    display: inline-block;
+    padding-right:80px;
+    text-align:center;
+    padding-top:15px;
+    margin-left:-40px;
+    width: 220px;
+    height: 30px;
+    color:#fff;
+    background-size:100px 100px;
+    background-color: #08f1f1;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.6);
+}
+input[type="text"] {
+    background-image: url('im.jpg');
+    background-size:32px;
+    background-repeat:no-repeat;
+    background-position:right;
+}
+input[type="password"] {
+    background-image: url('pass.png');
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+input[type="text"], input[type="password"] {
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 18px;
+    padding: 7px;
+    width: 220px;
+    height: 32px;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    transition: 0.2s ease;
+}
+input[class="button"]
+{
+    margin-bottom: 0px;
+    width: 220px;
+    height:32px;
+    background:#18d9e5;
+    color:#fff;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:500;
+    text-transform:uppercase;
+    transition: 0.2s ease;
+    cursor:pointer;
+    border:none;
+    border-radius:5px;
+}
+button[class="Social Facebook"]{
+    margin-bottom: 8px;
+    width: 220px;
+    height: 32px;
+    background: #0b33f6;
+    color: #fff;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 0.2s ease;
+    cursor: pointer;
+    border:none;
+    border-radius:5px;
+}
+button[class="Social Google+"]{
+    margin-bottom: 18px;
+    width: 220px;
+    height: 32px;
+    background: #ff0000;
+    color: #fff;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 0.2s ease;
+    cursor: pointer;
+    border:none;
+    border-radius:5px;
+}
+div[class="or"]{
+    width: 100%;
+    text-align: center;
+    border-bottom: 2px solid #808080;
+    line-height: 0.1em;
+    margin: 10px -20px 20px;
+    font-size:medium;
+}
+span {
+    background: #fff;
+    color:#808080;
+    padding: 5px 10px;
+}
+input[class="epam"] {
+    margin-bottom: 28px;
+    width: 220px;
+    height: 32px;
+    background: #d9f10c;
+    color: #fff;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 0.2s ease;
+    cursor: pointer;
+    border:none;
+    border-radius:5px;
+}
+p.reg{
+    padding-bottom:30px;
+    font-size:small;
+    margin:0 0;
+}
